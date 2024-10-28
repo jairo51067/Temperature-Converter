@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 18px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+a{
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13px;
+  margin-bottom: 33px;
+  padding: 20px 13px 0px 13px; 
+  position: relative;
+  border: 1px solid #ffffff62;
+  /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); */
+  border-radius: 20px; 
+}
+
+label {
+  width: 100%;
+  font-weight: bold;
+  margin: 10px;
+  color: #333;
+  text-align: start;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+select {
+  width: 200px;
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  width: 130px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #0000FF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #000;
+  color: white;
+}
+
+#result {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 30px;
+  margin: 13px 0px 0px 0px;
+  padding: 10px 0px;
+}
+
+/* Estilos del pie de página */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: #333;
+  font-size: 0.8em;
+}
+.footer-infoDev {
+  text-align: end;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #0056b3;
+  }
+}
+
+.footer-roadmapSh {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-align: end;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #0056b3;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    position: relative;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .footer-roadmapSh{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 15px;
+  }
+}
