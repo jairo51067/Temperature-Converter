@@ -6,13 +6,13 @@ Este proyecto es un Conversor de Temperaturas que permite a los usuarios convert
 
 Imagen del proyecto
 <br>
-![temperature-conversor](https://github.com/user-attachments/assets/601cde98-809c-4f0e-9cdd-ae96f2b1123a) 
+![temperature-conversor-pc](https://github.com/user-attachments/assets/0e109248-8cf7-417f-9848-ef5facfc9477)
 <br>
-![temperature-conversor-movil](https://github.com/user-attachments/assets/6814cd94-2a8f-4ec3-a0d6-ec3eed077206) 
-![temperature-conversor-movil_1](https://github.com/user-attachments/assets/acecbc06-ff64-4722-add6-9258f046ef6e) 
+![temperature-conversor-movil](https://github.com/user-attachments/assets/ca2da2aa-e349-4a30-b163-137a4cb2b859) 
+![temperature-conversor-movil_1](https://github.com/user-attachments/assets/d10ed59d-dd08-4127-897e-728b67155c98)
 <br>
-![temperature-conversor-movil_2](https://github.com/user-attachments/assets/0d011c2f-f2a2-4d00-98e5-500f2df17ffa) 
-![temperature-conversor-movil_3](https://github.com/user-attachments/assets/6a9a622b-2162-4a62-b61f-53e79a6af3d6) 
+![temperature-conversor-movil_2](https://github.com/user-attachments/assets/d5cb68a1-fb77-4e6c-b49a-aecb5c691cd5)
+![temperature-conversor-movil_3](https://github.com/user-attachments/assets/456a2658-2fc8-445c-88f1-ad56d83148bd)
 <br>
 
 ## Descripción
