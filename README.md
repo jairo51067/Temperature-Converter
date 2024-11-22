@@ -6,7 +6,7 @@ Este proyecto es un Conversor de Temperaturas que permite a los usuarios convert
 
 Imagen del proyecto
 <br>
-![temperature-conversor-pc](https://github.com/user-attachments/assets/942bfd7c-1b6c-4515-af66-330e0036a49b)
+![temperature-conversor-pc](https://github.com/user-attachments/assets/a90ea3bc-33ba-4846-a6db-f0c3c4c848bc)
 <br>
 ![temperature-conversor-movil](https://github.com/user-attachments/assets/ca2da2aa-e349-4a30-b163-137a4cb2b859) 
 ![temperature-conversor-movil_1](https://github.com/user-attachments/assets/d10ed59d-dd08-4127-897e-728b67155c98)
