@@ -4,7 +4,7 @@ Este proyecto es un Conversor de Temperaturas que permite a los usuarios convert
 [Enlace al proyecto](https://temperature-converter-omega-mauve.vercel.app/)  
 <br>
 
-## Imagen del proyecto
+Imagen del proyecto
 <br>
 ![temperature-conversor](https://github.com/user-attachments/assets/601cde98-809c-4f0e-9cdd-ae96f2b1123a) 
 <br>
