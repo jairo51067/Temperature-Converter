@@ -3,15 +3,16 @@ Este proyecto es un Conversor de Temperaturas que permite a los usuarios convert
 
 [Enlace al proyecto](https://temperature-converter-omega-mauve.vercel.app/)  
 <br>
+
 ## Imagen del proyecto
 <br>
-![temperature-conversor-pc](https://github.com/user-attachments/assets/b76e3080-d836-4ec7-be0d-8bb5d0bec63d)
+![temperature-conversor](https://github.com/user-attachments/assets/601cde98-809c-4f0e-9cdd-ae96f2b1123a) 
 <br>
-![temperature-conversor-movil](https://github.com/user-attachments/assets/6814cd94-2a8f-4ec3-a0d6-ec3eed077206)
-![temperature-conversor-movil_1](https://github.com/user-attachments/assets/acecbc06-ff64-4722-add6-9258f046ef6e)
+![temperature-conversor-movil](https://github.com/user-attachments/assets/6814cd94-2a8f-4ec3-a0d6-ec3eed077206) 
+![temperature-conversor-movil_1](https://github.com/user-attachments/assets/acecbc06-ff64-4722-add6-9258f046ef6e) 
 <br>
-![temperature-conversor-movil_2](https://github.com/user-attachments/assets/0d011c2f-f2a2-4d00-98e5-500f2df17ffa)
-![temperature-conversor-movil_3](https://github.com/user-attachments/assets/6a9a622b-2162-4a62-b61f-53e79a6af3d6)
+![temperature-conversor-movil_2](https://github.com/user-attachments/assets/0d011c2f-f2a2-4d00-98e5-500f2df17ffa) 
+![temperature-conversor-movil_3](https://github.com/user-attachments/assets/6a9a622b-2162-4a62-b61f-53e79a6af3d6) 
 <br>
 
 ## Descripción
