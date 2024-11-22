@@ -1,42 +1,61 @@
 function convertTemperature() {
-  // Obtener los valores de entrada
   const temperature = parseFloat(document.getElementById("temperature").value);
   const fromUnit = document.getElementById("fromUnit").value;
   const toUnit = document.getElementById("toUnit").value;
   let result;
 
-  // Comprobar si la temperatura es un número
   if (isNaN(temperature)) {
-      document.getElementById("result").innerText = "Please enter a valid number.";
-      return;
-  }
+    document.getElementById("result").innerText = "Please enter a valid number.";
+    return;
+  }  
 
-  // Convertir la temperatura a la unidad deseada
   if (fromUnit === toUnit) {
-      result = temperature; // Si las unidades son las mismas, no se necesita conversión
+    result = temperature;
   } else if (fromUnit === "celsius") {
-      if (toUnit === "fahrenheit") {
-          result = (temperature * 9/5) + 32;
-      } else if (toUnit === "kelvin") {
-          result = temperature + 273.15;
-      }
+    result = toUnit === "fahrenheit" ? (temperature * 9 / 5) + 32 : temperature + 273.15;
   } else if (fromUnit === "fahrenheit") {
-      if (toUnit === "celsius") {
-          result = (temperature - 32) * 5/9;
-      } else if (toUnit === "kelvin") {
-          result = (temperature - 32) * 5/9 + 273.15;
-      }
+    result = toUnit === "celsius" ? (temperature - 32) * 5 / 9 : (temperature - 32) * 5 / 9 + 273.15;
   } else if (fromUnit === "kelvin") {
-      if (toUnit === "celsius") {
-          result = temperature - 273.15;
-      } else if (toUnit === "fahrenheit") {
-          result = (temperature - 273.15) * 9/5 + 32;
-      }
+    result = toUnit === "celsius" ? temperature - 273.15 : (temperature - 273.15) * 9 / 5 + 32;
   }
 
+  document.getElementById("result").innerText = `Result: ${result.toFixed(2)}° ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`;
+
+  const modal = document.getElementById("animationModal");
+  const modalResult = document.getElementById("modalResult");
+  const modalIcon = document.getElementById("modalIcon");
+  modal.className = "modal";
+  modal.style.display = "flex";
+
+  let celsiusResult = result;
+  if (toUnit === "fahrenheit") celsiusResult = (result - 32) * 5 / 9;
+  else if (toUnit === "kelvin") celsiusResult = result - 273.15;
+
+  if (celsiusResult <= 10) {
+    modal.classList.add("cold");
+    modalIcon.innerHTML = "❄️";
+    modalResult.innerText = `Cold: ${result.toFixed(2)}° ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`;
+  } else if (celsiusResult > 10 && celsiusResult <= 25) {
+    modal.classList.add("warm");
+    modalIcon.innerHTML = "🌤️";
+    modalResult.innerText = `Warm: ${result.toFixed(2)}° ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`;
+  } else {
+    modal.classList.add("hot");
+    modalIcon.innerHTML = "🔥";
+    modalResult.innerText = `Hot: ${result.toFixed(2)}° ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`;
+  }
+}
+
+
+// Función para cerrar el modal
+function closeModal() {
+  const modal = document.getElementById("animationModal");
+  modal.style.display = "none";
   // Mostrar el resultado
   document.getElementById("result").innerText = `Result:  ${result.toFixed(2)}° ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`;
 }
+
+
 
 function refreshFields() {
   // Restablecer los campos de entrada y el resultado
